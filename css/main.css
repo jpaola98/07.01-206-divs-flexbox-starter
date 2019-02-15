@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+ /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
  * What follows is the result of much research on cross-browser styling.
@@ -97,33 +97,37 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #ddccff;
   height: 100%;
+  width: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #19004d;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.3em;
+ /* background-color: #f16059;*/
   height: 300px;
+  padding: 10px;
+  border: 1px dashed black;
   display: flex;
-  width: 30%;
+  width: none;
   justify-content: center;
   align-items: center;
 }
