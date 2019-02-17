@@ -98,8 +98,16 @@ textarea {
 
 html {
   background-color: #ddccff;
+  font-weight: bold;
   height: 100%;
   width: 100%;
+}
+
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+    padding: 10px;
+    padding-bottom: 40px;
 }
 
 body {
@@ -107,6 +115,13 @@ body {
   padding: 2em;
   font-size: 1em;
   height: 100%;
+}
+
+.about {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25em;
+  padding: 10px;
+  padding-bottom: 30px;
 }
 
 .wrapper {
@@ -132,7 +147,9 @@ body {
   align-items: center;
 }
 
-
+footer {
+  
+}
 
 
 /* ==========================================================================
